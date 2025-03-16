@@ -4,7 +4,7 @@ import time
 
 st.header('Tossing a Coin')
 
-chart = st.line_chart([0.5])
+chart = st.line_chart()
 
 def toss_coin(n):
 
